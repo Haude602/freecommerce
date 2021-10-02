@@ -38,7 +38,7 @@ export default function Cart() {
                               <a href="#" className="title">
                                 Some name of item goes here nice{" "}
                               </a>
-                              <strong className>$128.00</strong>
+                              <strong>$128.00</strong>
                               <div>
                                 <a href="#" className="btn-link mr-2">
                                   Save for later
@@ -97,7 +97,7 @@ export default function Cart() {
                               <a href="#" className="title">
                                 Product name goes here nice{" "}
                               </a>
-                              <strong className>$128.00</strong>
+                              <strong >$128.00</strong>
                               <div>
                                 <a href="#" className="btn-link mr-2">
                                   Save for later
@@ -156,7 +156,7 @@ export default function Cart() {
                               <a href="#" className="title">
                                 Another name of some product goes just{" "}
                               </a>
-                              <strong className>$98.50</strong>
+                              <strong >$98.50</strong>
                               <div>
                                 <a href="#" className="btn-link mr-2">
                                   Save for later
@@ -230,7 +230,7 @@ export default function Cart() {
                         <input
                           type="text"
                           className="form-control"
-                          name
+                          name="coupon-code"
                           placeholder="Coupon code"
                         />
                         <span className="input-group-append">

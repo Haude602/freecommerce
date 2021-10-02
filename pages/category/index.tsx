@@ -41,7 +41,6 @@ export default function Category() {
                         data-toggle="collapse"
                         data-target="#collapse_1"
                         aria-expanded="true"
-                        className
                       >
                         <i className="icon-control fa fa-chevron-down" />
                         <h6 className="title">Product type</h6>
@@ -100,7 +99,6 @@ export default function Category() {
                         data-toggle="collapse"
                         data-target="#collapse_2"
                         aria-expanded="true"
-                        className
                       >
                         <i className="icon-control fa fa-chevron-down" />
                         <h6 className="title">Brands </h6>
@@ -186,7 +184,6 @@ export default function Category() {
                         data-toggle="collapse"
                         data-target="#collapse_3"
                         aria-expanded="true"
-                        className
                       >
                         <i className="icon-control fa fa-chevron-down" />
                         <h6 className="title">Price range </h6>
@@ -203,7 +200,7 @@ export default function Category() {
                           className="custom-range"
                           min={0}
                           max={100}
-                          name
+                          name="custom-range"
                         />
                         <div className="form-row">
                           <div className="form-group col-md-6">
@@ -236,7 +233,6 @@ export default function Category() {
                         data-toggle="collapse"
                         data-target="#collapse_4"
                         aria-expanded="true"
-                        className
                       >
                         <i className="icon-control fa fa-chevron-down" />
                         <h6 className="title">Sizes </h6>
@@ -274,7 +270,6 @@ export default function Category() {
                         data-toggle="collapse"
                         data-target="#collapse_5"
                         aria-expanded="false"
-                        className
                       >
                         <i className="icon-control fa fa-chevron-down" />
                         <h6 className="title">More filter </h6>

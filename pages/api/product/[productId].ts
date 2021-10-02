@@ -1,3 +1,5 @@
+import { NextApiRequest, NextApiResponse } from 'next'
+
 const products = [
   {
     id: 1,
@@ -32,7 +34,7 @@ const products = [
     img: "http://localhost:3000/images/items/1.jpg",
   },
 ];
-export default function handler(req, res) {
+export default function handler(req:NextApiRequest, res:NextApiResponse) {
   const { productId } = req.query;
   const product = products.find((product) => product.id === +productId);
   res.status(200).json({ productId, product });
