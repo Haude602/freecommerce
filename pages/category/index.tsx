@@ -3,6 +3,7 @@ import Image from "../../components/util/Image";
 import Footer from "../../components/common/Footer";
 import Header from "../../components/common/Header";
 import Navbar from "../../components/common/Navbar";
+import SearchBox from "../../components/product/filters/SearchBox";
 
 export default function Category() {
   return (
@@ -46,51 +47,7 @@ export default function Category() {
                         <h6 className="title">Product type</h6>
                       </a>
                     </header>
-                    <div
-                      className="filter-content collapse show"
-                      id="collapse_1"
-                      style={{}}
-                    >
-                      <div className="card-body">
-                        <form className="pb-3">
-                          <div className="input-group">
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Search"
-                            />
-                            <div className="input-group-append">
-                              <button className="btn btn-light" type="button">
-                                <i className="fa fa-search" />
-                              </button>
-                            </div>
-                          </div>
-                        </form>
-                        <ul className="list-menu">
-                          <li>
-                            <a href="#">People</a>
-                          </li>
-                          <li>
-                            <a href="#">Watches </a>
-                          </li>
-                          <li>
-                            <a href="#">Cinema</a>
-                          </li>
-                          <li>
-                            <a href="#">Clothes</a>
-                          </li>
-                          <li>
-                            <a href="#">Home items </a>
-                          </li>
-                          <li>
-                            <a href="#">Animals</a>
-                          </li>
-                          <li>
-                            <a href="#">People </a>
-                          </li>
-                        </ul>
-                      </div>{" "}
-                    </div>
+                   <SearchBox/>
                   </article>{" "}
                   <article className="filter-group">
                     <header className="card-header">
