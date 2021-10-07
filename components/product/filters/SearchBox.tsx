@@ -48,6 +48,6 @@ const SearchBox: React.FC<Props> = (props) => {
     )
 }
 
-const SearchBoxWithContainer = (props) => <FilterContainer> <SearchBox {...props} /> </FilterContainer>
+const SearchBoxWithContainer = (props) => <FilterContainer title="Product type"> <SearchBox {...props} /> </FilterContainer>
 
 export default SearchBoxWithContainer;
