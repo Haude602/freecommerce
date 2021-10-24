@@ -1,3 +1,7 @@
+Eccommerce template written in Next.js
+
+![preview](https://raw.githubusercontent.com/iamrahultanwar/freecommerce/master/Screenshot%202021-10-21%20at%2010.53.51%20PM.png?token=AEWH3HXDCP7KC6WU4PCMVCLBOVDRI)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
